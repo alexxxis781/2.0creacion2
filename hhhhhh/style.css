@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    color: black;
+}
+
+.logoo {
+    padding-left: 50px;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px black;
+}
+
+header{
+    display: grid;
+    width: 100%;
+    background-color: rgb(33, 103, 80);
+    padding: 10px;
+    box-shadow: 0 2px 5px black;
+}
+.navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 50px;
+}
+.navegacion ul li a {
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navegacion ul li a:hover {
+    color: blue;
+    opacity: 0.7;
+    transition: all 0.5 ease;
+    border: 1px;
+    padding: 6px;
+}
+
+
+#pantalla.dividida {
+    display: grid;
+    width: 100%;
+}
+.izquierda {
+    background: rgb(73, 167, 73);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    box-sizing: border-box;
+}
+
+.creative {
+    color: aliceblue;
+
+
+}
+
+h1 {
+    font-size: 60px;
+    width: 80%;
+    margin: 0 0 40px 0;
+    text-align: center;
+    color: black;
+}
+
+p {
+    font-size: 19px;
+    line-height: 30px;
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.primero {
+    
+    box-shadow: 0 8px 20px black;
+    background-color: rgb(60, 227, 9);
+    margin: 2px;
+    height: 200%;
+    border-radius: 12px;
+}
+
+.img img {
+    border-radius: 12px;
+}
+
+.terrestres img {
+    border-radius: 12px;
+    width: 500px;
+    height: auto;
+}
+
+.acuaticos img {
+    border-radius: 12px;
+    width: 500px;
+    height: auto;
+}
+
+.aereos img {
+    border-radius: 12px;
+    width: 500px;
+    height: auto;
+}
+
+.vertebrados img {
+     border-radius: 12px;
+    width: 500px;
+    height: auto;
+}
+
+.esqueleto img {
+     border-radius: 12px;
+    width: 500px;
+    height: auto;
+}
+
+.invertebrados img {
+    border-radius: 12px;
+    width: 500px;
+    height: auto;
+}
+
+.nesqueleto img {
+     border-radius: 12px;
+    width: 500px;
+    height: auto;
+
+}
